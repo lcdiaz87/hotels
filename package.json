@@ -1,0 +1,28 @@
+{
+  "name": "hotels",
+  "version": "1.0.0",
+  "description": "first commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcdiaz87/hotels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcdiaz87/hotels/issues"
+  },
+  "homepage": "https://github.com/lcdiaz87/hotels#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "chromedriver": "^106.0.1",
+    "wdio-chromedriver-service": "^8.0.0"
+  }
+}
