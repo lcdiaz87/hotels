@@ -4,7 +4,6 @@ const Page = require("./page");
  * sub page containing specific selectors and methods for a specific page
  */
 class EuroStartsHotelsPage extends Page {
-  table = [];
   get acceptCookies() {
     return $('.fn-confirm');
   }

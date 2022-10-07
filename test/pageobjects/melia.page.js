@@ -91,7 +91,6 @@ class MeliaPage extends Page {
     if(available) {
       total = await card.$('span.amount___2Xi6Z').getText();
     }
-    console.log("total" + total + "end");
     return {
       name: await card.$('.b-rich-text___157nR').getText(),
       price: (available) ? Number.parseInt(total.split(" ")[1].replace(",","")) : "",

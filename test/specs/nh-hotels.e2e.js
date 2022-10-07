@@ -19,7 +19,7 @@ describe("nh-hotels", () => {
   it("should get hotel list", async() => {
     let hotels = await nhHotels.dataFromHotelList();
     for(let hotel of hotels) {
-      console.table("NH - " + hotel.name + " - " + ((hotel.notAvailable.length > 0) ? "Not Available" : hotel.pricePerNight + " " + hotel.currency) + " - " + ((Number.parseInt(hotel.pricePerNight) < 100)? "YES" : "NO"));
+      console.log("NH - " + hotel.name + " - " + ((hotel.notAvailable.length > 0) ? "Not Available" : hotel.pricePerNight + " " + hotel.currency) + " - " + ((Number.parseInt(hotel.pricePerNight) < 100)? "YES" : "NO"));
     }
   });
 });

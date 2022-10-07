@@ -20,10 +20,8 @@ describe("eurostartshotels", () => {
     let priceWithoutCurrency, hotels = await euroStartsHotels.dataFromHotelList();
     for(let hotel of hotels) {
       priceWithoutCurrency = Number.parseInt(hotel.pricePerNight.split(" ")[0]);
-      //console.table("Eurostarts - " + hotel.name + " - " + hotel.pricePerNight + " - " + ((priceWithoutCurrency < 100)? "YES" : "NO"));
-      euroStartsHotels.table.push("Eurostarts - " + hotel.name + " - " + hotel.pricePerNight + " - " + ((priceWithoutCurrency < 100)? "YES" : "NO"));
+      console.log("Eurostarts - " + hotel.name + " - " + hotel.pricePerNight + " - " + ((priceWithoutCurrency < 100)? "YES" : "NO"));
+      
     }
-    console.table("DENTRO");
-    console.table(euroStartsHotels.table);
   });
 });
