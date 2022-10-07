@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lcdiaz87/hotels#readme",
   "devDependencies": {
     "@wdio/cli": "^7.25.1",
+    "@wdio/dot-reporter": "^7.25.1",
     "@wdio/local-runner": "^7.25.1",
     "@wdio/mocha-framework": "^7.25.1",
     "@wdio/spec-reporter": "^7.25.1",
