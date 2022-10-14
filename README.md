@@ -12,7 +12,7 @@ npm i --save-dev @wdio/cli // install webdrioverio CLI
 ```
 1 - install VSCode (from website: https://code.visualstudio.com/download)
 2 - install git (from website: https://git-scm.com/downloads)
-3 - clone repository -> on console: git clone https://git.rz.aareon.com/aswc/end2end-tests.git
+3 - clone repository -> on console: git clone 
 4 - install node.js (from website: https://nodejs.org/en/download/)
 5 - verify installation -> on console: 
         node -v            
